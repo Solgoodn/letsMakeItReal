@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My HTML/CSS/JS Website!</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="learn-to-code.js"> 
+        </script>
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+                <li class="topnav-right"><a href="#signin">Sign In</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;
+                </a></li>
+                <!-- href="javascript:void(0);"  не позволит странице обновлятся при нажатии-->
+            </ul>
+        </nav>
+
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <div class="col-6">
+                    <div class="leftSide-col">
+                        <h1 class="large">Crazy Radness</h1>
+                        <h1 class="large">Made for Developers</h1>
+                    </div>
+                    <form>
+                        <div class="leftSide-col">
+                            <h2>Username</h2>
+                            <input class="inputbox" name="username" type="text" placeholder="Username">
+                            <h2>Password</h2>
+                            <input class="inputbox" name="password" type="text" placeholder="Password">
+                        </div>
+                    </form>    
+                </div>
+                <div class="col-6">
+                    <div class="rightSide-col">
+                        <div class="videoContainer">
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/svqEHp25Y7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <h1 class="section2Header">
+                The standarts of Aawesomness
+            </h1>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img width="150" height="150" src="js.png">
+                        </div>
+                        <label>Chat with me</label>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img width="150" height="150" src="js.png">
+                        </div>
+                        <label>Learn to Code</label>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        </p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <div class="icon">
+                            <img width="150" height="150" src="js.png">
+                        </div>
+                        <label>Build an Empire</label>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="buttomLearnMore">
+                <div class="col-12">
+                    <button class="learnMore">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </article>
+                </div>
+                <div class="col-5">
+                    <div class="nodeIcone">
+                        <img width="400" height="150" src="nodeJs.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footsy">
+            <div class="row">
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+                <div class="col-3 mobileStack">
+                    <h1>Company</h1>
+                    <ul>
+                        <li>About</li>
+                        <li>Blogs</li>
+                        <li>Careers</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <h1>Percentage Calculator</h1>
+        <p>X is what % of Y?</p>
+        <form id="xIsWhat%OfY">
+            <input type="text" id="numField1"> is what % of
+            <input type="text" id="numField2">?<br><br>
+            <input type="submit" value="Calculate">
+        </form>
+        <h3 id="resultField"></h3>
+        <script type="text/javascript" src="calc.js"></script> 
+    </body>
+</html>
